@@ -8,6 +8,6 @@ name: R-CMD-check.yaml
 
 jobs:
   R-CMD-check:
-    uses: Public-Health-Scotland/.github/workflows/phs_R-CMD-check.yaml@main
+    uses: Public-Health-Scotland/workflows/phs_R-CMD-check.yaml@main
     permissions: read-all
     secrets: inherit
