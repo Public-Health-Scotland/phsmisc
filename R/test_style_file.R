@@ -2,6 +2,7 @@
 
 obj = "name"
 
+fun <- function(var =1){return(var)}
 
 
 
