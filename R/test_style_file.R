@@ -1,8 +1,7 @@
-#Test file to check the style action works
+# Test file to check the style action works
 
-obj = "name"
+obj <- "name"
 
-fun <- function(var =1){return(var)}
-
-
-
+fun <- function(var = 1) {
+  return(var)
+}
