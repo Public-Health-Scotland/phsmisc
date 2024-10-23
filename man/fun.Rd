@@ -7,5 +7,5 @@
 fun(var = 1)
 }
 \description{
-Just a test function - using to test the actions
+Just a test function - used to test the GH actions only
 }
