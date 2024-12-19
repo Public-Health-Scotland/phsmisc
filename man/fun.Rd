@@ -6,6 +6,9 @@
 \usage{
 fun(var = 1)
 }
+\arguments{
+\item{var}{any value}
+}
 \description{
 Just a test function - used to test the GH actions only
 }
