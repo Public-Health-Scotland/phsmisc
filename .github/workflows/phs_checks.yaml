@@ -12,4 +12,7 @@ permissions: read-all
 jobs:
   PHS-checks:
     uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@main
+    permissions: 
+      contents: write
+      pull-requests: write
     secrets: inherit
