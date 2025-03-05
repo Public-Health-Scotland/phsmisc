@@ -7,8 +7,9 @@ on:
 
 name: phs_checks.yaml
 
+permissions: read-all
+
 jobs:
   PHS-checks:
-    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@permissions
-    permissions: write-all
+    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@main
     secrets: inherit
