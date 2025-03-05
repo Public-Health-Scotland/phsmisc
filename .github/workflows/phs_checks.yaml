@@ -7,7 +7,9 @@ on:
 
 name: phs_checks.yaml
 
-permissions: read-all
+permissions: 
+  contents: read
+  pull-requests: read
 
 jobs:
   PHS-checks:
