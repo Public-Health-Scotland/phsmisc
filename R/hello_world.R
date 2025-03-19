@@ -1,5 +1,7 @@
 #' Hello World
 #'
+#' Some description text
+#'
 #' @param name Your name
 #'
 #' @return A character vector
@@ -10,7 +12,7 @@
 hello_world <- function(name) {
   stopifnot(inherits(name, "character"))
 
-  response <- paste0("Hello ", name, "!")
+  response=paste0( 'Hello ', name, "!")
 
   return(response)
 }
