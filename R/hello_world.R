@@ -1,6 +1,6 @@
 #' Hello World
 #'
-#' Some description text
+#' Some more description text
 #'
 #' @param name Your name
 #'
