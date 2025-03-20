@@ -13,7 +13,7 @@ hello_world(name)
 A character vector
 }
 \description{
-Some description texty
+Some description text
 }
 \examples{
 hello_world("James")
