@@ -1,6 +1,6 @@
 #' Hello World
 #'
-#' Some description texty
+#' Some description text
 #'
 #' @param name Your name
 #'
@@ -10,7 +10,7 @@
 #' @examples
 #' hello_world("James")
 hello_world <- function(name) {
-  stopifnot(inherits(name, "character"))
+  stopifnot(inherits(name , "character"))
 
   response <- paste0("Hello ", name, "!")
 
