@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   PHS-checks:
-    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@limit-concurrency
+    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@add-pkgdown
     with:
       limit_parallel: true
     permissions: 
