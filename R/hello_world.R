@@ -1,7 +1,5 @@
 #' Hello World
 #'
-#' Some more description text
-#'
 #' @param name Your name
 #'
 #' @return A character vector
