@@ -1,6 +1,6 @@
 #' Hello World
 #'
-#' @description Some further description of what the function does
+#' @description Some further description on a really long line.
 #' @param name Your name
 #'
 #' @return A character vector
@@ -11,7 +11,7 @@
 hello_world <- function(name) {
   stopifnot(inherits(name, "character"))
 
-  response <- paste0("Hello ", name, "!")
+  response <- paste0("Hello " , name , '!')
 
   return(response)
 }
