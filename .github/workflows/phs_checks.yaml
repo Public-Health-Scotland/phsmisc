@@ -15,8 +15,6 @@ permissions:
 jobs:
   PHS-checks:
     uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@job-status
-    with:
-      limit_parallel: true
     permissions: 
       contents: write
       pull-requests: write
