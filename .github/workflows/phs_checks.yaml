@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   PHS-checks:
-    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@split-R-CMD-check
+    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@test_air
     permissions: 
       contents: write
       pull-requests: write
