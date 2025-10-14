@@ -1,6 +1,6 @@
 #' Hello World
 #'
-#' @description Some further description on a really long line.
+#' @description Some further description on a long line.
 #' @param name Your name as a character
 #'
 #' @return A character vector
@@ -11,7 +11,7 @@
 hello_world <- function(name) {
   stopifnot(inherits(name, "character"))
 
-  response <- paste0("Hello ", name, "!")
+  response <- paste0("Hello " , name, "!")
 
   return(response)
 }
