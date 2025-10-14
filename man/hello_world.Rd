@@ -13,7 +13,7 @@ hello_world(name)
 A character vector
 }
 \description{
-Some further description on a really long line.
+Some further description on a long line.
 }
 \examples{
 hello_world("James")
