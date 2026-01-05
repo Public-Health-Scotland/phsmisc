@@ -7,7 +7,7 @@
 hello_world(name)
 }
 \arguments{
-\item{name}{Your name as a character}
+\item{name}{Your name as a character.}
 }
 \value{
 A character vector
