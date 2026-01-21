@@ -33,7 +33,7 @@ jobs:
         with:
           extra-packages: |
             github::r-lib/revdepcheck
-            any::parallely
+            any::parallelly
           needs: |
             website
             coverage
@@ -41,7 +41,7 @@ jobs:
       - name: Run revdepcheck
         run: |
           R -q -e '
-            n_workers <- tryCatch(parallely::availableCores(), error = function(e) 1L)
+            n_workers <- tryCatch(parallelly::availableCores(), error = function(e) 1L)
             message("Using ", n_workers, " workers")
             revdepcheck::revdep_check(
               pkg = ".",
