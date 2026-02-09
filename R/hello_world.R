@@ -1,6 +1,7 @@
 #' Hello World
 #'
-#' @param name Your name
+#' @description Some further description on a long line...
+#' @param name Your name as a character.
 #'
 #' @return A character vector
 #' @export

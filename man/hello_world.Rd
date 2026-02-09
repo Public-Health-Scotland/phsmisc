@@ -7,13 +7,13 @@
 hello_world(name)
 }
 \arguments{
-\item{name}{Your name}
+\item{name}{Your name as a character.}
 }
 \value{
 A character vector
 }
 \description{
-Hello World
+Some further description on a long line...
 }
 \examples{
 hello_world("James")
