@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   PHS-checks:
-    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@use_rocker_r-ver
+    uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@commit-authors
     permissions: 
       contents: write
       pull-requests: write
