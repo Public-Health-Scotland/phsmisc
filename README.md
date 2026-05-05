@@ -1,3 +1,6 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # phsmisc
 
 <!-- badges: start -->
@@ -9,4 +12,3 @@ Status](https://github.com/Public-Health-Scotland/phsmisc/workflows/R-CMD-check/
 [![codecov](https://codecov.io/gh/Public-Health-Scotland/phsmisc/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Public-Health-Scotland/phsmisc)
 
 <!-- badges: end -->
-
