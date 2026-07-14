@@ -19,4 +19,5 @@ jobs:
       contents: write
       pull-requests: write
       statuses: write
+      packages: read
     secrets: inherit
