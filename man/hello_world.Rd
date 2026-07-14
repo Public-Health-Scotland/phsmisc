@@ -10,7 +10,7 @@ hello_world(name)
 \item{name}{Your name as a character.}
 }
 \value{
-A character vector
+A character vector.
 }
 \description{
 Some further description on a long line...
