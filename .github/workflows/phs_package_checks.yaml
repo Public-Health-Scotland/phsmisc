@@ -16,7 +16,7 @@ jobs:
     uses: Public-Health-Scotland/actions/.github/workflows/phs_package_checks.yaml@split-document-and-style
     with:
       lint: true
-      lint_changed_files_only: true
+      lint_changed_files_only: false
     permissions: 
       contents: write
       pull-requests: write
